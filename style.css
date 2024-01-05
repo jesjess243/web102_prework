@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: darkslategrey;
+    color: white;
 }
 
 #tentacles {
@@ -21,10 +22,11 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: teal;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -49,7 +51,7 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: royalblue;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -73,3 +75,53 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.revealable {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 1;
+    transition: all 0.5s linear;
+  }
+
+  .active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .modal {
+    display: none; /* hides the modal from view by default*/
+    position: fixed; /* keeps the modal in one place */
+    z-index: 2; /* positions the modal on top of all other elements on the screen */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+    flex-direction: row; /* these flexbox rules center the content on the screen */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* box that contains all the content and images */
+  .modal-content {
+    background-color: royalblue; /* update the colors and font sizes as you like */
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    font-size: 2rem;
+    display: flex; /* adds flexbox to center all items */
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+  }
+  
+  #modal-content {
+    width: 40rem; /* sets a default width for the text container */
+  }
+  
+  #modal-text-container {
+    display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
