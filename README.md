@@ -17,16 +17,18 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Added darker CSS color styles for more readability.
+* [X] A modal that prompts the user to become a sponsor after scrolling to the bottom of the page.
+* [X] The games cards animate onto the screen on scrolling.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/zIZ4aIh' title='Video Walkthrough' width='1862px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LiceCap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -34,7 +36,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challenge I encountered was juggling the ternary operators to properly format the header statement. Also, I was not able to add the functionality I wanted for the modal window. My goal is a popup that appears when scrolling to the bottom of the page, providing a form to become a crowdfunder using a dropdown list of available games and a dollar amount. However, I wasn't able to find how to create a dropdown in HTML. I plan to resolve both of these issues and finalize the modal.
 
 ## License
 
