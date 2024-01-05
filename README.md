@@ -36,7 +36,7 @@ GIF created with LiceCap
 
 ## Notes
 
-One challenge I encountered was juggling the ternary operators to properly format the header statement. Also, I was not able to add the functionality I wanted for the modal window. My goal is a popup that appears when scrolling to the bottom of the page, providing a form to become a crowdfunder using a dropdown list of available games and a dollar amount. However, I wasn't able to find how to create a dropdown in HTML. I plan to resolve both of these issues and finalize the modal.
+One challenge I encountered was juggling the ternary operators to properly format the header statement. Also, I was not able to add the full functionality for the modal window. I wanted a popup that appears when scrolling to the bottom of the page, providing a form to become a crowdfunder using a dropdown list of available games and a dollar amount. However, I wasn't able to find how to create a dropdown in HTML. I plan to resolve both of these issues and finalize the modal.
 
 ## License
 
